@@ -4,6 +4,7 @@ import PackageDescription
 let package = Package(
     name: "swift-bson",
     platforms: [
+        .iOS(.v12),
         .macOS(.v10_14)
     ],
     products: [
